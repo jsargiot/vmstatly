@@ -1,0 +1,70 @@
+/**
+ * vmstatly (https://github.com/jsargiot/vmstatly)
+ * @license MIT License
+ */
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+  color: #424242;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  flex: 0 0 auto;
+}
+
+main {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+footer.page-footer {
+  background-color: #212121;
+  height: auto;
+  color: #FFF;
+  
+}
+
+#drop_zone {
+  padding: 3rem;
+  text-align: center;
+}
+
+.menu {
+  background-color: #212121;
+  padding: 1.5rem;
+  height: auto;
+  color: #FFF;
+}
+
+.menu h1 {
+  font-weight: 300;
+  text-transform: lowercase;
+  margin: 0;
+  text-shadow: 1px 1px gray;
+}
+
+.content {
+  padding: 1rem 2rem;
+  width: 52.5rem;
+  margin: 0 auto;
+}
+
+.graph {
+  margin: 2.5rem 0;
+  width: 48.5rem;
+  background-color: #FFF;
+}
+
+.highcharts-container {
+  margin: 1rem 0;
+}
