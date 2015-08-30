@@ -2,6 +2,8 @@
 
 Generate charts from `vmstat` output.
 
+Check it out: http://jsargiot.github.io/vmstatly/
+
 This app parses the output of `vmstat` linux command (http://linux.die.net/man/8/vmstat) and creates charts from the data.
 
 ## Examples
